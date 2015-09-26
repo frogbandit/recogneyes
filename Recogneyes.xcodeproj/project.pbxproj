@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115316761BB7512F00BB1B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115316751BB7512F00BB1B9A /* AppDelegate.swift */; };
+		115316781BB7512F00BB1B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115316771BB7512F00BB1B9A /* ViewController.swift */; };
+		1153167B1BB7512F00BB1B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115316791BB7512F00BB1B9A /* Main.storyboard */; };
+		1153167D1BB7512F00BB1B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1153167C1BB7512F00BB1B9A /* Assets.xcassets */; };
+		115316801BB7512F00BB1B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1153167E1BB7512F00BB1B9A /* LaunchScreen.storyboard */; };
+		1153168B1BB7512F00BB1B9A /* RecogneyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153168A1BB7512F00BB1B9A /* RecogneyesTests.swift */; };
+		115316961BB7512F00BB1B9A /* RecogneyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115316951BB7512F00BB1B9A /* RecogneyesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115316871BB7512F00BB1B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1153166A1BB7512F00BB1B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115316711BB7512F00BB1B9A;
+			remoteInfo = Recogneyes;
+		};
+		115316921BB7512F00BB1B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1153166A1BB7512F00BB1B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115316711BB7512F00BB1B9A;
+			remoteInfo = Recogneyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		115316721BB7512F00BB1B9A /* Recogneyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recogneyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115316751BB7512F00BB1B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		115316771BB7512F00BB1B9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1153167A1BB7512F00BB1B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1153167C1BB7512F00BB1B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1153167F1BB7512F00BB1B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		115316811BB7512F00BB1B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115316861BB7512F00BB1B9A /* RecogneyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecogneyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1153168A1BB7512F00BB1B9A /* RecogneyesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogneyesTests.swift; sourceTree = "<group>"; };
+		1153168C1BB7512F00BB1B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115316911BB7512F00BB1B9A /* RecogneyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecogneyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115316951BB7512F00BB1B9A /* RecogneyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogneyesUITests.swift; sourceTree = "<group>"; };
+		115316971BB7512F00BB1B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1153166F1BB7512F00BB1B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115316831BB7512F00BB1B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1153168E1BB7512F00BB1B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115316691BB7512F00BB1B9A = {
+			isa = PBXGroup;
+			children = (
+				115316741BB7512F00BB1B9A /* Recogneyes */,
+				115316891BB7512F00BB1B9A /* RecogneyesTests */,
+				115316941BB7512F00BB1B9A /* RecogneyesUITests */,
+				115316731BB7512F00BB1B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115316731BB7512F00BB1B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115316721BB7512F00BB1B9A /* Recogneyes.app */,
+				115316861BB7512F00BB1B9A /* RecogneyesTests.xctest */,
+				115316911BB7512F00BB1B9A /* RecogneyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115316741BB7512F00BB1B9A /* Recogneyes */ = {
+			isa = PBXGroup;
+			children = (
+				115316751BB7512F00BB1B9A /* AppDelegate.swift */,
+				115316771BB7512F00BB1B9A /* ViewController.swift */,
+				115316791BB7512F00BB1B9A /* Main.storyboard */,
+				1153167C1BB7512F00BB1B9A /* Assets.xcassets */,
+				1153167E1BB7512F00BB1B9A /* LaunchScreen.storyboard */,
+				115316811BB7512F00BB1B9A /* Info.plist */,
+			);
+			path = Recogneyes;
+			sourceTree = "<group>";
+		};
+		115316891BB7512F00BB1B9A /* RecogneyesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1153168A1BB7512F00BB1B9A /* RecogneyesTests.swift */,
+				1153168C1BB7512F00BB1B9A /* Info.plist */,
+			);
+			path = RecogneyesTests;
+			sourceTree = "<group>";
+		};
+		115316941BB7512F00BB1B9A /* RecogneyesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				115316951BB7512F00BB1B9A /* RecogneyesUITests.swift */,
+				115316971BB7512F00BB1B9A /* Info.plist */,
+			);
+			path = RecogneyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115316711BB7512F00BB1B9A /* Recogneyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1153169A1BB7512F00BB1B9A /* Build configuration list for PBXNativeTarget "Recogneyes" */;
+			buildPhases = (
+				1153166E1BB7512F00BB1B9A /* Sources */,
+				1153166F1BB7512F00BB1B9A /* Frameworks */,
+				115316701BB7512F00BB1B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recogneyes;
+			productName = Recogneyes;
+			productReference = 115316721BB7512F00BB1B9A /* Recogneyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		115316851BB7512F00BB1B9A /* RecogneyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1153169D1BB7512F00BB1B9A /* Build configuration list for PBXNativeTarget "RecogneyesTests" */;
+			buildPhases = (
+				115316821BB7512F00BB1B9A /* Sources */,
+				115316831BB7512F00BB1B9A /* Frameworks */,
+				115316841BB7512F00BB1B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115316881BB7512F00BB1B9A /* PBXTargetDependency */,
+			);
+			name = RecogneyesTests;
+			productName = RecogneyesTests;
+			productReference = 115316861BB7512F00BB1B9A /* RecogneyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		115316901BB7512F00BB1B9A /* RecogneyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115316A01BB7512F00BB1B9A /* Build configuration list for PBXNativeTarget "RecogneyesUITests" */;
+			buildPhases = (
+				1153168D1BB7512F00BB1B9A /* Sources */,
+				1153168E1BB7512F00BB1B9A /* Frameworks */,
+				1153168F1BB7512F00BB1B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115316931BB7512F00BB1B9A /* PBXTargetDependency */,
+			);
+			name = RecogneyesUITests;
+			productName = RecogneyesUITests;
+			productReference = 115316911BB7512F00BB1B9A /* RecogneyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1153166A1BB7512F00BB1B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rhodes and Xue";
+				TargetAttributes = {
+					115316711BB7512F00BB1B9A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					115316851BB7512F00BB1B9A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 115316711BB7512F00BB1B9A;
+					};
+					115316901BB7512F00BB1B9A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 115316711BB7512F00BB1B9A;
+					};
+				};
+			};
+			buildConfigurationList = 1153166D1BB7512F00BB1B9A /* Build configuration list for PBXProject "Recogneyes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115316691BB7512F00BB1B9A;
+			productRefGroup = 115316731BB7512F00BB1B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115316711BB7512F00BB1B9A /* Recogneyes */,
+				115316851BB7512F00BB1B9A /* RecogneyesTests */,
+				115316901BB7512F00BB1B9A /* RecogneyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115316701BB7512F00BB1B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115316801BB7512F00BB1B9A /* LaunchScreen.storyboard in Resources */,
+				1153167D1BB7512F00BB1B9A /* Assets.xcassets in Resources */,
+				1153167B1BB7512F00BB1B9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115316841BB7512F00BB1B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1153168F1BB7512F00BB1B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1153166E1BB7512F00BB1B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115316781BB7512F00BB1B9A /* ViewController.swift in Sources */,
+				115316761BB7512F00BB1B9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115316821BB7512F00BB1B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1153168B1BB7512F00BB1B9A /* RecogneyesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1153168D1BB7512F00BB1B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115316961BB7512F00BB1B9A /* RecogneyesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115316881BB7512F00BB1B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115316711BB7512F00BB1B9A /* Recogneyes */;
+			targetProxy = 115316871BB7512F00BB1B9A /* PBXContainerItemProxy */;
+		};
+		115316931BB7512F00BB1B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115316711BB7512F00BB1B9A /* Recogneyes */;
+			targetProxy = 115316921BB7512F00BB1B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		115316791BB7512F00BB1B9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1153167A1BB7512F00BB1B9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1153167E1BB7512F00BB1B9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1153167F1BB7512F00BB1B9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115316981BB7512F00BB1B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115316991BB7512F00BB1B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1153169B1BB7512F00BB1B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recogneyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rhodes-and-xue.Recogneyes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1153169C1BB7512F00BB1B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recogneyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rhodes-and-xue.Recogneyes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1153169E1BB7512F00BB1B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecogneyesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rhodes-and-xue.RecogneyesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recogneyes.app/Recogneyes";
+			};
+			name = Debug;
+		};
+		1153169F1BB7512F00BB1B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecogneyesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rhodes-and-xue.RecogneyesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recogneyes.app/Recogneyes";
+			};
+			name = Release;
+		};
+		115316A11BB7512F00BB1B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RecogneyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rhodes-and-xue.RecogneyesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Recogneyes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		115316A21BB7512F00BB1B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RecogneyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rhodes-and-xue.RecogneyesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Recogneyes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1153166D1BB7512F00BB1B9A /* Build configuration list for PBXProject "Recogneyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115316981BB7512F00BB1B9A /* Debug */,
+				115316991BB7512F00BB1B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1153169A1BB7512F00BB1B9A /* Build configuration list for PBXNativeTarget "Recogneyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1153169B1BB7512F00BB1B9A /* Debug */,
+				1153169C1BB7512F00BB1B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1153169D1BB7512F00BB1B9A /* Build configuration list for PBXNativeTarget "RecogneyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1153169E1BB7512F00BB1B9A /* Debug */,
+				1153169F1BB7512F00BB1B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		115316A01BB7512F00BB1B9A /* Build configuration list for PBXNativeTarget "RecogneyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115316A11BB7512F00BB1B9A /* Debug */,
+				115316A21BB7512F00BB1B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1153166A1BB7512F00BB1B9A /* Project object */;
+}
